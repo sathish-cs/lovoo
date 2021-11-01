@@ -1,14 +1,19 @@
+// Latest version of protocol buffer version
 syntax = "proto3";
 
+// Path of proto directory where calc.proto file resides
 option go_package = "./proto";
 package calc;
 
+// Create service and define functions that takes request and return  reply
 service Calculator {
     rpc Add(AddRequest) returns (AddReply) {}
     rpc Subtract(SubtractRequest) returns (SubtractReply) {}
     rpc Multiply(MultiplyRequest) returns (MultiplyReply) {}
     rpc Divide(DivideRequest) returns (DivideReply) {}
 }
+
+// Pass data structure to Request and Reply
 
 message AddRequest {
     int32 n1 = 1;
