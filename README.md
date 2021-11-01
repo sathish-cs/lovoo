@@ -53,9 +53,12 @@ Build out using protoc complier which created calc.pb.go' in proto directory.
 
 ## Run the application
 
-
   *  server/server_go    
-  *  client/client_go 10 5 
+## Start client in another terminal
+
+*  client/client_go 10 5
+
+Sample output 
 <img width="747" alt="Screenshot 2021-11-01 at 6 15 11 PM" src="https://user-images.githubusercontent.com/83687894/139674838-11d7a74d-ee17-4701-ad15-c68eed75e247.png">
 
 Note: This program can be improved using frameworks like using gin to improve the performance. But due to time constraint did'nt tested those. Defineltly will work on that to improve this sample app. 
