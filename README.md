@@ -55,4 +55,4 @@ Build out using protoc complier which created calc.pb.go' in proto directory.
 
   *  server/server_go    
   *  client/client_go 10 5 
-
+![app response](go.jpg)
