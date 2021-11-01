@@ -60,6 +60,6 @@ Build out using protoc complier which created calc.pb.go' in proto directory.
 
 ![Sample output](go.jpg) 
 
-Note: This program can be improved using frameworks like using gin to improve the performance. But due to time constraint did'nt tested those. Defineltly will work on that to improve this sample app. 
+Note: This program can be improved using frameworks like gin which helps to improve the performance. But due to time constraint did'nt tested those. Defineltly will work on that to improve this sample app. 
 
 
