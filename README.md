@@ -56,3 +56,7 @@ Build out using protoc complier which created calc.pb.go' in proto directory.
   *  server/server_go    
   *  client/client_go 10 5 
 ![app response](go.jpg)
+
+Note: This program can be improved using frameworks like using gin to improve the performance. But due to time constraint did'nt tested those. Defineltly will work on that to improve this sample app. 
+
+
