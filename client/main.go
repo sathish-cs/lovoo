@@ -10,7 +10,7 @@ import (
 	pb "calculator-gRPC-golang/proto"
 	"google.golang.org/grpc"
 )
-
+// Connects to the server 
 const (
 	address = "localhost:50051"
 )
@@ -34,7 +34,7 @@ func main() {
 
 	n1, n2 := argParser(os.Args[1], os.Args[2])
 
-	conn, err := grpc.Dial(address, grpc.WithInsecure())
+	conn, err := grpc.Dial(address, grpc.WithInsecure()) // This can be fixed with SSL certificates then it can be connect with HTTPS
 	if err != nil {
 		log.Fatalf("cannot connect: %s", err)
 	}
