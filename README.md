@@ -6,11 +6,27 @@
 
 Its lightweight communication protocol developed by Google. Its works well to provide communctions from  backend to backend server. It can be run on any environment and its a language agnostic.
 
+## Minimum System Requirements
+
+* OS
+  - Windows 7 or later
+  - Linux 
+  - Mac 10.10 or later
+
+* RAM
+  - Atleast 2gb of RAM
+ 
+* CPU
+  - Multicore CPU is recommended 
+  
+* Disk
+  - 3 GB space
+ 
 
 ## Prerequisite
 
 * [Install GO](https://golang.org/doc/install)  
-* [Install Protocol buffers] (protoc) (https://grpc.io/docs/protoc-installation/)
+* [Install Protocol buffers](https://grpc.io/docs/protoc-installation/)
 
 * $GOPATH/bin must be in $PATH
 
@@ -61,6 +77,6 @@ Build out using protoc complier which created calc.pb.go' in proto directory.
 
 ![Sample output](go.jpg) 
 
-Note: This program can be improved using frameworks like gin which helps to improve the performance. But due to time constraint did'nt worked on that part as of now. Definitely will work on that to improve this sample app. 
+Note: This program can be improved by using frameworks like gin which helps to improve the performance and unit tests. But due to time constraint did'nt worked on that part as of now. Definitely will work on that to improve this sample app. 
 
 
