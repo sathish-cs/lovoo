@@ -43,9 +43,8 @@ go get google.golang.org/grpc/reflection
 
 ### Init the project
 
-`
 go mod init calculator-gRPC-golang - This will create mod file which is used to track dependencies of the project.
-`
+
 ### Code Structure
 
 ```
