@@ -2,19 +2,19 @@
 
 ## Build calculator with gRPC
 
-##gRPC
+### gRPC
 
-Its lightweight communication protocol developed by Google. Its works well to provide communctions from  backend to backend server communications to make the clients beleive that the server is on same machine. It can be run on any environment and its a language agnostic.
+Its lightweight communication protocol developed by Google. Its works well to provide communctions from  backend to backend server. It can be run on any environment and its a language agnostic.
 
 
 ## Prerequisite
 
-* Install GO
-* Install Protocol buffers (protoc)
+* [Install GO](https://golang.org/doc/install)  
+* [Install Protocol buffers] (protoc) (https://grpc.io/docs/protoc-installation/)
 
-* $GOPATH/bin must be in your $PATH
+* $GOPATH/bin must be in $PATH
 
-Add below dependencies
+Added below dependencies
  
 ```
 go get  google.golang.org/protobuf
@@ -25,7 +25,7 @@ go get google.golang.org/grpc
 go get google.golang.org/grpc/reflection
 ```
 
-##Init the project
+### Init the project
 
 `
 go mod init calculator-gRPC-golang - This will create mod file which is used to track dependencies of the project.
@@ -54,6 +54,7 @@ Build out using protoc complier which created calc.pb.go' in proto directory.
 ## Run the application
 
   *  server/server_go    
+
 ## Start client in another terminal
 
 *  client/client_go 10 5
